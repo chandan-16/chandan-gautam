@@ -109,7 +109,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Nextjs, React, Redux, Typescript, Javascript, Tailwind CSS, ClerkAuth, Artificial Inteligence' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Haribhai V. Desai College Bachelor of Computer Application (Science)' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Haribhai V. Desai College,  Bachelor of Computer Application (Science)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 16 projects using latest Web technologies & Tools' }
 ];
 
