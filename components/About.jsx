@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 mx-auto">
       <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
       <h2 className="text-center text-5xl font-Ovo">About me</h2>
@@ -55,6 +54,7 @@ const About = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

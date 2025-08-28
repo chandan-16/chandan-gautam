@@ -34,7 +34,8 @@ const Navbar = () => {
 
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`} >
         <a href="#top">
-            <Image src={assets.logo} alt="" className="w-28 cursor-pointer mr-14" />
+            {/* <Image src={assets.logo} alt="" className="w-28 cursor-pointer mr-14" /> */}
+            <h1 className="text-gray-700 font-semibold text-3xl text-left align-middle">Gautam <span className="text-red-600 font-bold text-4xl -pr-[5px]">.</span></h1>
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opaciy-50" }`}>
