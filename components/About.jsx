@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 const About = ({isDarkMode}) => {
   return (
     <motion.div 
-      id="about" className="w-full px-6 sm:px-[12%] lg:px-[19%] py-10 scroll-mt-20 mx-auto"
+      id="about" className="w-full px-4 sm:px-8 lg:px-[12%] xl:px-[19%] py-10 scroll-mt-20 mx-auto"
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1}}
@@ -14,26 +14,26 @@ const About = ({isDarkMode}) => {
       <motion.h4 
         initial={{opacity: 0, y: -20}}
         whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 0.5, delay:0.3}}
-        className="text-center mb-2 text-lg font-Ovo">Introduction</motion.h4>
+        transition={{delay: 0.3, duration: 0.6}}
+        className="text-center mb-2 text-base sm:text-lg font-Ovo">Introduction</motion.h4>
 
       <motion.h2 
         initial={{opacity: 0, y: -20}}
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.5, delay:0.5}}  
-        className="text-center text-5xl font-Ovo">About me</motion.h2>
+        className="text-center text-2xl sm:text-4xl lg:text-5xl font-Ovo my-8 sm:my-14 lg:my-20">About me</motion.h2>
 
       <motion.div
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.8}}      
-        className="flex w-full flex-col lg:flex-row items-center gap-10 sm:gap-14 lg:gap-20 my-10 sm:my-16 lg:my-20">
+        className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
 
         <motion.div 
           initial={{opacity: 0, scale: 0.9}}
           whileInView={{opacity: 1, scale: 1}}
           transition={{duration: 0.6}} 
-          className="w-40 sm:w-64 lg:w-80 rounded-3xl max-w-none">
+          className="w-36 sm:w-52 lg:w-72 xl:w-80 rounded-3xl flex-shrink-0">
 
           <Image
             src={assets.user_image}
@@ -46,7 +46,7 @@ const About = ({isDarkMode}) => {
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
           transition={{duration: 0.6, delay:0.8}}      
-          className="flex-1">
+          className="flex-1 text-center lg:text-left">
 
           <p className="mb-6 sm:mb-10 text-justify font-Ovo text-sm sm:text-base leading-relaxed sm:leading-7">
             I’m a Frontend Developer specializing in React, Next.js, TypeScript,
@@ -56,25 +56,22 @@ const About = ({isDarkMode}) => {
             and GitHub, and explore AI technologies such as ChatGPT to enhance
             my workflow. I build impactful solutions while continuously growing as a passionate
             developer.
-          </p>
-
-          Currently, I’m contributing at Engineer’s Cradle, Pune,
-            {/* where  */}
+          </p>          
 
           <motion.ul 
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration: 0.8, delay: 1}}   
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-6">
 
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{scale: 1.05}}
                 key={index}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+                className="border border-gray-300 rounded-xl p-4 sm:p-5 text-center lg:text-left cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 dark:border-white dark:hover:bg-darkHover/50"
               >
-                <Image src={isDarkMode ? iconDark : icon} alt={title} className="w-7" />
-                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">{title}</h3>
+                <Image src={isDarkMode ? iconDark : icon} alt={title} className="w-6 mx-auto lg:mx-0" />
+                <h3 className="my-2 sm:my-3 font-semibold text-gray-700 dark:text-white">{title}</h3>
                 <p className="text-gray-600 text-sm dark:text-white/80">{description}</p>
               </motion.li>
             ))}
@@ -84,13 +81,13 @@ const About = ({isDarkMode}) => {
             initial={{y: 20, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{delay: 0.0, duration: 0}}         
-            className="my-6 text-gray-700 font-Ovo dark:text-white">Tools I use :</motion.h4>
+            className="mt-8 mb-4 text-gray-700 font-Ovo dark:text-white">Tools I use :</motion.h4>
 
           <motion.ul
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
             transition={{delay: 1.5, duration: 0.6}}    
-            className="flex items-center gap-1 sm:gap-3">
+            className="flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-3">
             {
               toolsData.map((tool, index) => (
                 <motion.li 
