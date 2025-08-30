@@ -54,10 +54,12 @@ const About = ({isDarkMode}) => {
             performance-driven applications that turn ideas into seamless
             digital experiences. I work with tools like ClerkAuth, Storybook,
             and GitHub, and explore AI technologies such as ChatGPT to enhance
-            my workflow. Currently, I’m contributing at Engineer’s Cradle, Pune,
-            where I build impactful solutions while continuously growing as a passionate
+            my workflow. I build impactful solutions while continuously growing as a passionate
             developer.
           </p>
+
+          Currently, I’m contributing at Engineer’s Cradle, Pune,
+            {/* where  */}
 
           <motion.ul 
             initial={{opacity: 0}}
