@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 const About = ({isDarkMode}) => {
   return (
     <motion.div 
-      id="about" className="w-full px-[26%] py-10 scroll-mt-20 mx-auto"
+      id="about" className="w-full px-[19%] py-10 scroll-mt-20 mx-auto "
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1}}
@@ -48,7 +48,7 @@ const About = ({isDarkMode}) => {
           transition={{duration: 0.6, delay:0.8}}      
           className="flex-1">
 
-          <p className="mb-10 max-w-2xl text-center font-Ovo">
+          <p className="mb-10 max-w-2xl text-justify font-Ovo ">
             I’m a Frontend Developer specializing in React, Next.js, TypeScript,
             and Tailwind CSS. I enjoy crafting responsive, user-friendly, and
             performance-driven applications that turn ideas into seamless
@@ -88,12 +88,12 @@ const About = ({isDarkMode}) => {
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
             transition={{delay: 1.5, duration: 0.6}}    
-            className="flex items-center gap-3 sm:gap-5">
+            className="flex items-center gap-1 sm:gap-3">
             {
               toolsData.map((tool, index) => (
                 <motion.li 
                   whileHover={{scale: 1.1}}  
-                  key={index} className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                  key={index} className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-100">
                   <Image src={tool} alt="tool" className="w-5 sm:w-7" />
                 </motion.li>
               ))

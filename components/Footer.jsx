@@ -13,10 +13,10 @@ const Footer = ({isDarkMode}) => {
         </div>
         <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[12%] mt-12 py-6">
             <p>&copy; 2025 Chandan Gautam. All Rights Reserved.</p>
-            <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-">
-                <li><a target="_blank" href="https://github.com/chandan-16">Github</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/chandan1699/">LinkedIn</a></li>
-                <li><a target="_blank" href="https://app.netlify.com/teams/chandan-16/projects">Netlify</a></li>
+            <ul className="flex items-center gap-0 justify-center mt-4 sm:mt-">
+                <li ><a target="_blank" href="https://github.com/chandan-16" className="hover:font-semibold">Github</a></li>
+                <li className="px-5"><a target="_blank" href="https://www.linkedin.com/in/chandan1699/" className="hover:font-semibold">LinkedIn</a></li>
+                <li><a target="_blank" href="https://app.netlify.com/teams/chandan-16/projects" className="hover:font-semibold">Netlify</a></li>
             </ul>
         </div>
     </div>

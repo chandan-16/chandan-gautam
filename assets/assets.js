@@ -10,6 +10,11 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import chatgpt from './chatgpt.webp';
+import clerk from './clerk.png';
+import copilot from './copilot.png';
+import framer from './framer.png';
+import photoshop from './photoshop.png';
 import right_arrow_white from './right-arrow-white.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -46,6 +51,11 @@ export const assets = {
     firebase,
     figma,
     git,
+    chatgpt,
+    clerk,
+    copilot,
+    framer,
+    photoshop,
     mongodb,
     right_arrow_white,
     mail_icon,
@@ -75,18 +85,18 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Yummate',
+        description: 'React, Redux, API, TailwindCSS, Firebase',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Streamioo',
+        description: 'React, Redux, API, Firebase, TailwindCSS',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Cinemate',
+        description: 'React, Redux, TMDB-API, Firebase', 
         bgImage: '/work-3.png',
     },
     {
@@ -97,10 +107,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Crafting modern, responsive, and SEO-optimized websites that combine aesthetics with functionality. My focus is on delivering clean, maintainable code, lightning-fast performance, and mobile-first layouts. Each project is tailored to provide smooth navigation, engaging visuals, and a strong online presence for businesses.', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'Designing intuitive and user-centered interfaces that prioritize clarity, accessibility, and engagement. My approach focuses on understanding user behavior to create seamless navigation, clean layouts, and visually appealing components. The goal is to deliver experiences that feel natural, reduce friction, and keep users coming back.', link: '' },
+    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design plays a key role in building a memorable brand identity. I design logos, branding assets, marketing materials, and social media graphics that are not only visually appealing but also aligned with business goals. Every design is carefully crafted to communicate ideas effectively and leave a lasting impact.', link: '' },
 ]
 
 export const infoList = [
@@ -110,5 +119,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.chatgpt, assets.clerk, assets.copilot, assets.framer, assets.photoshop
 ];
