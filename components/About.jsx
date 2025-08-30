@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 const About = ({isDarkMode}) => {
   return (
     <motion.div 
-      id="about" className="w-full px-[19%] py-10 scroll-mt-20 mx-auto "
+      id="about" className="w-full px-6 sm:px-[12%] lg:px-[19%] py-10 scroll-mt-20 mx-auto"
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1}}
@@ -27,13 +27,13 @@ const About = ({isDarkMode}) => {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.8}}      
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+        className="flex w-full flex-col lg:flex-row items-center gap-10 sm:gap-14 lg:gap-20 my-10 sm:my-16 lg:my-20">
 
         <motion.div 
           initial={{opacity: 0, scale: 0.9}}
           whileInView={{opacity: 1, scale: 1}}
           transition={{duration: 0.6}} 
-          className="w-64 sm:w-80 rounded-3xl max-w-none">
+          className="w-40 sm:w-64 lg:w-80 rounded-3xl max-w-none">
 
           <Image
             src={assets.user_image}
@@ -48,7 +48,7 @@ const About = ({isDarkMode}) => {
           transition={{duration: 0.6, delay:0.8}}      
           className="flex-1">
 
-          <p className="mb-10 max-w-2xl text-justify font-Ovo ">
+          <p className="mb-6 sm:mb-10 text-justify font-Ovo text-sm sm:text-base leading-relaxed sm:leading-7">
             I’m a Frontend Developer specializing in React, Next.js, TypeScript,
             and Tailwind CSS. I enjoy crafting responsive, user-friendly, and
             performance-driven applications that turn ideas into seamless
