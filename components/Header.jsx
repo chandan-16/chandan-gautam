@@ -30,8 +30,7 @@ const Header = () => {
       <motion.p initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }} className="max-w-2xl mx-auto font-Ovo">
-        I am a frontend developer from Pune, Maharashtra with overall 2 years of
-        experience in startup company TurtleSquare & Engineer's Cradle.{" "}
+        I am a Frontend Developer from Pune, Maharashtra, specializing in React and Next.js, with a passion for building modern, responsive, and user-friendly web applications.{" "}
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
