@@ -31,6 +31,7 @@ const Work = ({ isDarkMode }) => {
         projects showcasing my expertise in front-end development.
       </motion.p>
 
+      
       <motion.div 
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
@@ -50,14 +51,17 @@ const Work = ({ isDarkMode }) => {
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
               <div className="border rounded-full border-black w-6 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <Image src={assets.send_icon} alt="" className="w-5" />
+                <a target="_blank" href={project.link}>
+                  <Image src={assets.send_icon} alt="" className="w-5" />  
+                </a> 
               </div>
             </div>
           </motion.div>
+          
         ))}
       </motion.div>
 
-      <motion.a
+      {/* <motion.a
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{delay: 1.1, duration: 0.5}}
@@ -72,7 +76,7 @@ const Work = ({ isDarkMode }) => {
           alt="right arrow"
           className="w-4"
         />{" "}
-      </motion.a>
+      </motion.a> */}
     </motion.div>
   );
 };

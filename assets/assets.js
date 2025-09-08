@@ -85,24 +85,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Yummate',
-        description: 'React, Redux, API, TailwindCSS, Firebase',
+        title: 'Netflix-GPT',
+        description: 'React + Vite, TMDB API, Gemini API, TailwindCSS, Ollama, Firebase',
         bgImage: '/work-1.png',
+        link: ''
+    },
+    {
+        title: 'Voxa-AI',
+        description: 'React, Nextjs, Deepseek-API, Mongo-DB, TailwindCSS, ClerkAuth',
+        bgImage: '/work-2.png',
+        link: 'https://voxa-ai-iota.vercel.app/'
     },
     {
         title: 'Streamioo',
-        description: 'React, Redux, API, Firebase, TailwindCSS',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Cinemate',
-        description: 'React, Redux, TMDB-API, Firebase', 
+        description: 'React, Redux, TailwindCSS, API, Firebase', 
         bgImage: '/work-3.png',
+        link: 'https://streamioo.netlify.app/'
     },
     {
         title: 'Netflix-GPT',
-        description: 'React + Vite, TMDB & Gemini AP, Ollama, Firebase',
+        description: 'React + Vite, TMDB & Gemini AP,TailwindCSS, Ollama, Firebase',
         bgImage: '/work-4.png',
+        link: ''
     },
 ]
 
