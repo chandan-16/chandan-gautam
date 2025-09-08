@@ -100,8 +100,8 @@ export const workData = [
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Netflix-GPT',
+        description: 'React + Vite, TMDB & Gemini AP, Ollama, Firebase',
         bgImage: '/work-4.png',
     },
 ]
