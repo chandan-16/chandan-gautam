@@ -93,13 +93,13 @@ export const workData = [
     {
         title: 'Voxa-AI',
         description: 'React, Nextjs, Deepseek-API, Mongo-DB, TailwindCSS, ClerkAuth', 
-        bgImage: '/work-3.png',
+        bgImage: '/work-2.png',
         link: 'https://voxa-ai-iota.vercel.app/'
     },
     {
         title: 'Streamioo',
         description: 'React, Redux, TailwindCSS, API, Firebase ',
-        bgImage: '/work-2.png',
+        bgImage: '/work-3.png',
         link: ' https://streamioo.netlify.app/'
     },
     {
