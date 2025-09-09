@@ -85,28 +85,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Netflix-GPT',
+        title: 'Cineflix-GPT',
         description: 'React + Vite, TMDB API, Gemini API, TailwindCSS, Ollama, Firebase',
         bgImage: '/work-1.png',
-        link: ''
+        link: 'https://voxa-ai-iota.verceel.app/'
     },
     {
         title: 'Voxa-AI',
-        description: 'React, Nextjs, Deepseek-API, Mongo-DB, TailwindCSS, ClerkAuth',
-        bgImage: '/work-2.png',
+        description: 'React, Nextjs, Deepseek-API, Mongo-DB, TailwindCSS, ClerkAuth', 
+        bgImage: '/work-3.png',
         link: 'https://voxa-ai-iota.vercel.app/'
     },
     {
         title: 'Streamioo',
-        description: 'React, Redux, TailwindCSS, API, Firebase', 
-        bgImage: '/work-3.png',
-        link: 'https://streamioo.netlify.app/'
+        description: 'React, Redux, TailwindCSS, API, Firebase ',
+        bgImage: '/work-2.png',
+        link: ' https://streamioo.netlify.app/'
     },
     {
-        title: 'Netflix-GPT',
+        title: 'Yummate',
         description: 'React + Vite, TMDB & Gemini AP,TailwindCSS, Ollama, Firebase',
         bgImage: '/work-4.png',
-        link: ''
+        link: 'https://yummate.netlify.app/'
     },
 ]
 
@@ -117,7 +117,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Nextjs, React, Redux, Typescript, Javascript, Tailwind CSS, ClerkAuth, Artificial Inteligence' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Nextjs, React, Redux, Typescript, Javascript, Rest-API, Tailwind CSS, ClerkAuth, Artificial Inteligence' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Haribhai V. Desai College,  Bachelor of Computer Application (Science)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 16 projects using latest Web technologies & Tools' }
 ];
